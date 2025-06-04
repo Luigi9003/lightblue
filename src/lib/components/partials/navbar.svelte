@@ -1,15 +1,18 @@
 <script>
 	import NavbarLink from './navbar-link.svelte';
+	import { base, assets } from '$app/paths';
 </script>
 
 <nav class="bg-secondary text-secondary-foreground flex justify-between">
-	<NavbarLink url="/" testo="Logo" />
-	<div>
-		<NavbarLink url="/contatti" testo="Contatti" />
-		<NavbarLink url="/illustrazioni" testo="Illustrazioni" />
+	<a href="{base}/">
+		<img src="{assets}/immagini/lightblue-logo.png" alt="Logo" class="h-10" />
+	</a>
+	<div class="flex items-center gap-2">
 		<NavbarLink url="/motion" testo="Motion" />
-		<NavbarLink url="/per-aziende" testo="Per Aziende" />
-		<p>Per associazioni</p>
 		<p>Brand Identity</p>
+		<NavbarLink url="/per-aziende" testo="Per Aziende" />
+		<NavbarLink url="/per-associazioni" testo="Per Associazioni" />
+		<NavbarLink url="/illustrazioni" testo="Illustrazioni" />
+		<NavbarLink url="/contatti" testo="Contatti" />
 	</div>
 </nav>

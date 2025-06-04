@@ -1,1 +1,0 @@
-Bachi da Setola
