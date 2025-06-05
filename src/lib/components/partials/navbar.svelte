@@ -5,7 +5,7 @@
 
 <nav class="bg-secondary text-secondary-foreground flex justify-between">
 	<a href="{base}/">
-		<img src="{assets}/immagini/lightblue-logo.png" alt="Logo" class="h-10" />
+		<img src="{assets}/immagini/lightblue-logo.svg" alt="Logo" class="h-10" />
 	</a>
 	<div class="flex items-center gap-2">
 		<NavbarLink url="/motion" testo="Motion" />
