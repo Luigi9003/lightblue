@@ -6,7 +6,7 @@
 </script>
 
 <div>
-	<img src="{assets}/immagini/progetti/{p.immagine}" alt="Immagine di {p.titolo}" />
+	<img class="size-40" src="{assets}/immagini/progetti/{p.immagine}" alt="Immagine di {p.titolo}" />
 	<div>
 		<p>{p.immagine}</p>
 		<p>{p.titolo}</p>

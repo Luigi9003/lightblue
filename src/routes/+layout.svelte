@@ -1,9 +1,15 @@
 <script>
 	import '../app.css';
 	import Navbar from '$lib/components/partials/navbar.svelte';
+	import Footer from '$lib/components/partials/footer.svelte';
 </script>
 
-<Navbar />
+<div class="flex min-h-screen flex-col">
+	<Navbar />
 
-<slot />
-sotto
+	<div class="mt-20 flex flex-grow items-center justify-center">
+		<slot />
+	</div>
+
+	<Footer />
+</div>
