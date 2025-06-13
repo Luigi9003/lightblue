@@ -4,7 +4,7 @@
 	export let immagine: string;
 </script>
 
-<div class="bg-secondary max-w-sm overflow-hidden p-2">
+<div class="bg-secondary max-w-sm p-2">
 	<img
 		class="h-sm flex w-sm justify-items-center"
 		src="{assets}/immagini/progetti/{immagine}"
