@@ -13,7 +13,7 @@
 		class="mx-auto grid w-full place-items-center items-start gap-4 p-4 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3"
 	>
 		<Card
-			titolo="Intio di compleanno"
+			titolo="Invito di compleanno"
 			immagine="invito-compleanno.jpg"
 			desc="Invito di compleanno con grafica personalizzata e illustrazione su richiesta"
 		/>
