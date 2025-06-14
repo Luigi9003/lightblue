@@ -7,9 +7,9 @@
 <div class="flex min-h-screen flex-col">
 	<Navbar />
 
-	<div class="mt-20 flex flex-grow items-center justify-center">
+	<main class="mt-13 flex flex-grow items-center justify-center">
 		<slot />
-	</div>
+	</main>
 
 	<Footer />
 </div>
