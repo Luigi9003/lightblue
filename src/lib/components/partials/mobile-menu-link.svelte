@@ -16,8 +16,12 @@
 <a
 	{href}
 	class={[
-		'block',
-		{ 'text-primary': isActive, 'text-primary-foreground hover:text-primary ': !isActive }
+		'block p-2',
+		'rounded-md text-center',
+		{
+			'text-secondary-foreground hover:text-primary hover:bg-primary/10': !isActive,
+			'bg-primary text-secondary': isActive
+		}
 	]}
 >
 	{a.testo}
